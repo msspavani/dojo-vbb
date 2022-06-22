@@ -25,6 +25,8 @@
                 resultado.ForEach(x => Console.WriteLine(x));
 
             }
+            else
+                Console.Write("Nao houve resultado para o valor procurado");
         }
 
         private int[] ExtrairArrayDaColecaoDoUsuario(List<int> numerosDaColecao)
